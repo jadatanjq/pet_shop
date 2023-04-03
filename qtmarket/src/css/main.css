@@ -1,0 +1,21 @@
+body {
+    color: #FCEBEF
+}
+
+.font_light { 
+    color: #FDF5FF
+}
+
+.font_dark {
+    color: #382C38
+}
+
+.navbar {
+    color: #DACEDD;
+    min-height: 50px;
+}
+
+h1 {
+    font-family: 'amatica-sc-regular', sans-serif;
+}
+

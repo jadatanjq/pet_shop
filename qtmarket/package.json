@@ -8,11 +8,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@expo-google-fonts/amatica-sc": "^0.0.2",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
+    "bootstrap": "^4.0.0-beta",
+    "jquery": "^3.6.4",
+    "popper.js": "^1.16.1",
     "vite": "^4.1.4"
   }
 }
