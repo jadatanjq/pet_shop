@@ -1,6 +1,20 @@
-body {
-    color: #FCEBEF
+@font-face {
+    font-family: 'Amatica SC';
+    src: url('./AmaticaSC-Regular.ttf') format('truetype');
 }
+
+body {
+    background-color: #FCEBEF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Amatica SC";
+    color: #382C38
+}
+
+/* h1 {
+    font-family: 'amatica-sc-regular', sans-serif;
+} */
 
 .font_light { 
     color: #FDF5FF
@@ -11,11 +25,15 @@ body {
 }
 
 .navbar {
-    color: #DACEDD;
+    background-color: #DACEDD;
     min-height: 50px;
 }
 
-h1 {
-    font-family: 'amatica-sc-regular', sans-serif;
+@media screen and (max-width:600px) {
+
+}
+
+@media screen and (max-height:600px) {
+
 }
 

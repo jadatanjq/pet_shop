@@ -1,0 +1,239 @@
+body {
+    margin: 4vw;
+    background-color: rgb(240, 222, 225);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Comic Sans MS";
+}
+
+a {
+    text-decoration: none;
+    color: rgb(31, 31, 32);
+}
+
+a:hover {
+    color: rgb(182, 182, 237);
+}
+
+.logo {
+    font-family: "Courier New", monospace;
+    font-size: 120px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+}
+
+.img {
+    width: 50px;
+}
+
+.user_img {
+    width: 250px;
+}
+
+.back_btn {
+    font-family: "Comic Sans MS";
+    background-color: transparent;
+    border: none;
+}
+
+.back_btn:hover {
+    transform: scale(1.2);
+}
+
+.btn {
+    font-family: "Comic Sans MS";
+    background-color: rgb(182, 182, 237);
+    border: none;
+    box-shadow: 5px 5px 5px rgb(165, 165, 212);
+}
+
+.invite {
+    font-family: "Comic Sans MS";
+    box-shadow: 5px 5px 5px rgb(165, 165, 212);
+}
+
+.btn:hover{
+    background-color: rgb(199, 199, 240);
+    transform: scale(1.1);
+}
+
+.invite:hover {
+    transform: scale(1.1);
+}
+
+.btn:active {
+    background-color: rgb(199, 199, 240);
+    transform: scale(0.95);
+}
+
+.hist {
+    width: 600px;
+    height: 350px;
+    overflow: scroll;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.hist_card {
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(182, 182, 237);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(182, 182, 237);
+}
+
+.board {
+    width: 600px;
+    height: 600px;
+    display: block;
+    margin: auto;
+    box-shadow: 1px 1px 10px 5px rgb(113, 111, 111);
+}
+
+.block {
+    min-width: 75px;
+    max-width: 75px;
+    min-height: 75px;
+    max-height: 75px;
+    padding: 0px;
+}
+
+.white_space {
+    background-color: rgb(244, 239, 235);
+}
+
+.black_space {
+    background-color: rgb(91, 88, 88);
+}
+
+.piece {
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+}
+
+.piece_btn {
+    background-color: transparent;
+    border: none;
+    width: 75px;
+    height: 75px; 
+    padding: 0px;
+}
+
+.piece_btn:hover {
+    transform: scale(1.1);
+}
+
+.piece_btn:active {
+    transform: scale(0.95);
+}
+
+.avail {
+    background-image: url('../images/_moves.png');
+}
+
+.error {
+    color: rgb(255, 44, 93);
+}
+
+
+
+
+
+@media screen and (max-width:700px) {
+    .img {
+        width: 7vw;
+    }
+
+    .logo {
+        font-size: 15vw;
+    }
+
+    .user_img {
+        width: 30vw;
+    }
+
+    h1 {
+        font-size: 4vw;
+    }
+
+    h2 {
+        font-size: 3vw;
+    }
+
+    h4 {
+        font-size: 3vw;
+    }
+
+    h6 {
+        font-size: 2vw;
+    }
+
+    .btn {
+        font-size: 2vw;
+    }
+
+    .hist_card {
+        width: 25vw;
+        margin: 2vw;
+        padding: 2vw;
+    }
+
+    .board {
+        width: 80vw;
+        height: 80vw;
+    }
+
+    .block {
+        min-width: 10vw;
+        min-height: 10vw;
+        max-width: 10vw;
+        max-height: 10vw;
+    }
+
+    .piece {
+        width: 10vw;
+        height: 10vw;
+        padding: 1vw;
+    }
+
+    .piece_btn {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    input {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-height:600px) {
+    .block {
+        min-width: 10vh;
+        min-height: 10vh;
+        max-width: 10vh;
+        max-height: 10vh;
+    }
+    .logo {
+        font-size: 15vh;
+    }
+
+    .board {
+        width: 80vh;
+        height: 80vh;
+    }
+
+    .piece {
+        width: 10vh;
+        height: 10vh;
+        padding: 1vh;
+    }
+
+    .piece_btn {
+        width: 10vh;
+        height: 10vh;
+    }
+}
