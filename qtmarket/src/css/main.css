@@ -3,34 +3,95 @@
     src: url('./AmaticaSC-Regular.ttf') format('truetype');
 }
 
-body {
+#body {
     background-color: #FCEBEF;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, span, p{
     font-family: "Amatica SC";
     color: #382C38
 }
 
-/* h1 {
-    font-family: 'amatica-sc-regular', sans-serif;
-} */
+span {
+    font-size: 24px;
+}
+
+.routing:hover {
+    text-decoration: none;
+}
 
 .font_light { 
     color: #FDF5FF
 }
 
-.font_dark {
-    color: #382C38
+
+input[type=text]:focus {
+    outline: none;
 }
 
+
+/*               navbar css                   */
 .navbar {
     background-color: #DACEDD;
     min-height: 50px;
+    box-shadow: 0px 4px 10px 0px #CCBEC1;
 }
 
-@media screen and (max-width:600px) {
+.logo {
+    width: 122px;
+    border-radius: 5px;
+}
 
+.nav_icons {
+    width: 34px;
+    /* margin-left: 10px; */
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.search_bar {
+    background-color: #FDF5FF;
+    width: 250px;
+    border-radius: 10px;
+}
+.search_text {
+    background-color: #FDF5FF;
+    border: none;
+    width: 180px;
+}
+
+.search_icon {
+    width: 20px;
+}
+
+
+
+
+@media screen and (max-width:800px) {
+    .logo {
+        width: 15vw;
+    }
+
+    .search_bar {
+        width: 30vw;
+    }
+
+    .search_text {
+        width: 17vw;
+    }
+     
+    .nav_icons {
+        width: 3vw;
+        height: 3vw;
+        padding-left: 0vw;
+        padding-right: 0vw;
+        margin: 0vw 1vw;
+    }
+    
+    span {
+        font-size: 3vw;
+    }
 }
 
 @media screen and (max-height:600px) {

@@ -1,7 +1,5 @@
 <style>
-template {
-    background-color: #FCEBEF;
-}
+
 </style>
 
 <template>
@@ -10,7 +8,6 @@ template {
 
 <script>
 import navbar from "@/components/cust_navbar.vue"
-import '../css/main.css'
 
 export default {
     data() {
