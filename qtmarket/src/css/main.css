@@ -18,6 +18,7 @@ span {
 
 .routing:hover {
     text-decoration: none;
+    transform: scale(1.1);
 }
 
 .font_light { 
@@ -29,6 +30,9 @@ input[type=text]:focus {
     outline: none;
 }
 
+.btn {
+    background-color: #fdf5ff00;
+}
 
 /*               navbar css                   */
 .navbar {
@@ -44,7 +48,6 @@ input[type=text]:focus {
 
 .nav_icons {
     width: 34px;
-    /* margin-left: 10px; */
     margin: 0;
     padding-left: 5px;
     padding-right: 5px;
