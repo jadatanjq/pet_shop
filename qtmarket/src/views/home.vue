@@ -8,6 +8,9 @@
     height: 450px;
 }
 
+.slide {
+
+}
 
 </style>
 
@@ -31,7 +34,7 @@
                         <img class="d-block w-100 reco_img" src="../img/products/foodsprays.jpg" alt="Second slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block w-100 reco_img" src="../img/products/natural bedding.jpg" alt="Third slide">
+                        <img class="d-block w-100 reco_img" src="../img/products/naturalbedding.jpg" alt="Third slide">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#topSellers" role="button" data-slide="prev">
@@ -63,7 +66,7 @@
                         <img class="d-block w-100 reco_img" src="../img/products/foodsprays.jpg" alt="Second slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block w-100 reco_img" src="../img/products/natural bedding.jpg" alt="Third slide">
+                        <img class="d-block w-100 reco_img" src="../img/products/naturalbedding.jpg" alt="Third slide">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#recomendations" role="button" data-slide="prev">
