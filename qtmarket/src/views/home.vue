@@ -8,8 +8,6 @@
     height: 450px;
 }
 
-.slide {
-}
 
 </style>
 
