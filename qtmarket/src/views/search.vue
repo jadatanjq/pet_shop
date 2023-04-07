@@ -17,5 +17,11 @@ export default {
     components: {
         navbar,
     },
+
+    mounted() {
+        var stuff = window.location.search;
+        var urlParams = new URLSearchParams(stuff);
+        console.log(urlParams.get('value'))
+    }
 }
 </script>

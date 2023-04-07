@@ -18,7 +18,6 @@ span {
 
 .routing:hover {
     text-decoration: none;
-    transform: scale(1.1);
 }
 
 .font_light { 
@@ -46,11 +45,27 @@ input[type=text]:focus {
     border-radius: 5px;
 }
 
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.logo:active {
+    transform: scale(1);
+}
+
 .nav_icons {
     width: 34px;
     margin: 0;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.nav_icons:hover {
+    transform: scale(1.1);
+}
+
+.nav_icons:active {
+    transform: scale(1);
 }
 
 .search_bar {
@@ -68,6 +83,13 @@ input[type=text]:focus {
     width: 20px;
 }
 
+.search_icon:hover {
+    transform: scale(1.1);
+}
+
+.search_icon:active {
+    transform: scale(0.95);
+}
 
 
 

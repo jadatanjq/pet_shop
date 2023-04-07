@@ -7,7 +7,7 @@
     <div class = 'navbar row'>
         <div class = 'col-3'>
             <router-link to="/profile" class="routing">
-                <img src = '../img/icons/user.png' class = 'nav_icons mx-3'>
+                <img src = '../img/icons/user.png' class = 'nav_icons mx-3 routing '>
                 <span class = 'align-middle'>Jaycia Tan</span>
             </router-link>
         </div>
@@ -63,6 +63,7 @@ export default {
     methods: {
         search(){
             console.log(this.search_item)
+            window.location.href = './search?value=' + this.search_item
         },
     }
 }
