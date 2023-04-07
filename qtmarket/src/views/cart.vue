@@ -17,5 +17,8 @@ export default {
     components: {
         navbar,
     },
+
+    methods: {
+    }
 }
 </script>
